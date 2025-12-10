@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags - Google Ranking Optimized -->
+    <title>N8N Automation Templates & Setup Guides | Digital Products Store</title>
+    <meta name="description" content="Premium N8N automation templates with complete setup guides. Save 100+ hours with ready-to-use workflows. Instant download, lifetime updates.">
+    <meta name="keywords" content="n8n templates, automation workflows, n8n setup guide, workflow automation, digital products, n8n marketplace">
+    <meta name="author" content="N8N Digital Store">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="N8N Automation Templates & Setup Guides">
+    <meta property="og:description" content="Premium N8N automation templates with complete setup guides. Save 100+ hours with ready-to-use workflows.">
+    <meta property="og:image" content="https://yourdomain.com/assets/og-image.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="N8N Automation Templates & Setup Guides">
+    <meta name="twitter:description" content="Premium N8N automation templates with complete setup guides.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourdomain.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Three.js for 3D Character -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Schema.org Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "N8N Digital Store",
+      "description": "Premium N8N automation templates and setup guides",
+      "url": "https://yourdomain.com",
+      "logo": "https://yourdomain.com/assets/logo.png",
+      "sameAs": [
+        "https://twitter.com/yourhandle",
+        "https://www.linkedin.com/company/yourcompany"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "email": "support@yourdomain.com"
+      }
+    }
+    </script>
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo-section">
+                <i class="fas fa-robot logo-icon"></i>
+                <span class="logo-text">N8N<span class="highlight">Store</span></span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#templates" class="nav-link">Templates</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-cta">
+                <a href="#pricing" class="btn btn-primary">
+                    <i class="fas fa-shopping-cart"></i> Buy Now
+                </a>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section with 3D Character -->
+    <section class="hero" id="home">
+        <!-- 3D Canvas for Robot Character -->
+        <div id="robot-canvas"></div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-fire"></i> #1 N8N Template Marketplace
+                </div>
+                
+                <h1 class="hero-title">
+                    Transform Your Business with
+                    <span class="gradient-text">N8N Automation</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Premium N8N workflow templates with complete setup guides. 
+                    Save 100+ hours of development time. Plug, play, and automate 
+                    your business in minutes, not weeks.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Templates</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10K+</div>
+                        <div class="stat-label">Happy Users</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Money Back</div>
+                    </div>
+                </div>
+                
+                <div class="hero-cta">
+                    <a href="#templates" class="btn btn-primary btn-large">
+                        <i class="fas fa-rocket"></i> Browse Templates
+                    </a>
+                    <a href="#how-it-works" class="btn btn-secondary btn-large">
+                        <i class="fas fa-play-circle"></i> How It Works
+                    </a>
+                </div>
+                
+                <div class="trust-badges">
+                    <div class="badge-item">
+                        <i class="fas fa-shield-alt"></i> Secure Payment
+                    </div>
+                    <div class="badge-item">
+                        <i class="fas fa-download"></i> Instant Download
+                    </div>
+                    <div class="badge-item">
+                        <i class="fas fa-sync"></i> Lifetime Updates
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="floating-elements">
+            <div class="float-icon" style="top: 15%; left: 10%;">
+                <i class="fas fa-cog"></i>
+            </div>
+            <div class="float-icon" style="top: 25%; right: 15%;">
+                <i class="fas fa-bolt"></i>
+            </div>
+            <div class="float-icon" style="bottom: 20%; left: 15%;">
+                <i class="fas fa-robot"></i>
+            </div>
+            <div class="float-icon" style="bottom: 30%; right: 10%;">
+                <i class="fas fa-chart-line"></i>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Templates Section -->
+    <section class="templates-section" id="templates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-fire"></i> Best Selling Templates
+                </h2>
+                <p class="section-subtitle">
+                    Hand-picked automation workflows that businesses love
+                </p>
+            </div>
+            
+            <div class="templates-grid">
+                <!-- Template Card 1 -->
+                <article class="template-card" itemscope itemtype="https://schema.org/Product">
+                    <div class="template-badge best-seller">
+                        <i class="fas fa-crown"></i> Best Seller
+                    </div>
+                    <div class="template-image">
+                        <img src="https://via.placeholder.com/400x250/6366f1/ffffff?text=Email+Automation" alt="Email Marketing Automation Template" loading="lazy">
+                        <div class="template-overlay">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-eye"></i> Preview
+                            </a>
+                        </div>
+                    </div>
+                    <div class="template-content">
+                        <h3 class="template-title" itemprop="name">Email Marketing Automation</h3>
+                        <p class="template-description" itemprop="description">
+                            Complete email drip campaign system with segmentation, 
+                            A/B testing, and analytics dashboard.
+                        </p>
+                        <div class="template-features">
+                            <span class="feature-tag"><i class="fas fa-check"></i> Setup Guide</span>
+                            <span class="feature-tag"><i class="fas fa-check"></i> Video Tutorial</span>
+                            <span class="feature-tag"><i class="fas fa-check"></i> Lifetime Support</span>
+                        </div>
+                        <div class="template-footer">
+                            <div class="template-price">
+                                <span class="price-old">$199</span>
+                                <span class="price-current" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                    <meta itemprop="price" content="99">
+                                    <meta itemprop="priceCurrency" content="USD">
+                                    $99
+                                </span>
+                            </div>
+                            <a href="#" class="btn btn-buy">
+                                <i class="fas fa-shopping-cart"></i> Buy Now
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Template Card 2 -->
+                <article class="template-card" itemscope itemtype="https://schema.org/Product">
+                    <div class="template-badge trending">
+                        <i class="fas fa-fire"></i> Trending
+                    </div>
+                    <div class="template-image">
+                        <img src="https://via.placeholder.com/400x250/8b5cf6/ffffff?text=CRM+Integration" alt="CRM Integration Template" loading="lazy">
+                        <div class="template-overlay">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-eye"></i> Preview
+                            </a>
+                        </div>
+                    </div>
+                    <div class="template-content">
+                        <h3 class="template-title" itemprop="name">Multi-CRM Sync System</h3>
+                        <p class="template-description" itemprop="description">
+                            Sync data between Salesforce, HubSpot, and Pipedrive 
+                            automatically with bi-directional updates.
+                        </p>
+                        <div class="template-features">
+                            <span class="feature-tag"><i class="fas fa-check"></i> Setup Guide</span>
+                            <span class="feature-tag"><i class="fas fa-check"></i> API Documentation</span>
+                            <span class="feature-tag"><i class="fas fa-check"></i> Custom Fields</span>
+                        </div>
+                        <div class="template-footer">
+                            <div class="template-price">
+                                <span class="price-old">$249</span>
+                                <span class="price-current" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                    <meta itemprop="price" content="149">
+                                    <meta itemprop="priceCurrency" content="USD">
+                                    $149
+                                </span>
+                            </div>
+                            <a href="#" class="btn btn-buy">
+                                <i class="fas fa-shopping-cart"></i> Buy Now
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Template Card 3 -->
+                <article class="template-card" itemscope itemtype="https://schema.org/Product">
+                    <div class="template-badge new">
+                        <i class="fas fa-star"></i> New
+                    </div>
+                    <div class="template-image">
+                        <img src="https://via.placeholder.com/400x250/ec4899/ffffff?text=Social+Media" alt="Social Media Automation Template" loading="lazy">
+                        <div class="template-overlay">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-eye"></i> Preview
+                            </a>
+                        </div>
+                    </div>
+                    <div class="template-content">
+                        <h3 class="template-title" itemprop="name">Social Media Scheduler Pro</h3>
+                        <p class="template-description" itemprop="description">
+                            Schedule posts across Facebook, Twitter, LinkedIn, and 
+                            Instagram with AI-powered content suggestions.
+                        </p>
+                        <div class="template-features">
+                            <span class="feature-tag"><i class="fas fa-check"></i> Setup Guide</span>
+                            <span class="feature-tag"><i class="fas fa-check"></i> AI Integration</span>
+                            <span class="feature-tag"><i class="fas fa-check"></i> Analytics</span>
+                        </div>
+                        <div class="template-footer">
+                            <div class="template-price">
+                                <span class="price-old">$179</span>
+                                <span class="price-current" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                    <meta itemprop="price" content="89">
+                                    <meta itemprop="priceCurrency" content="USD">
+                                    $89
+                                </span>
+                            </div>
+                            <a href="#" class="btn btn-buy">
+                                <i class="fas fa-shopping-cart"></i> Buy Now
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Template Card 4 -->
+                <article class="template-card" itemscope itemtype="https://schema.org/Product">
+                    <div class="template-image">
+                        <img src="https://via.placeholder.com/400x250/10b981/ffffff?text=E-commerce" alt="E-commerce Automation Template" loading="lazy">
+                        <div class="template-overlay">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-eye"></i> Preview
+                            </a>
+                        </div>
+                    </div>
+                    <div class="template-content">
+                        <h3 class="template-title" itemprop="name">E-commerce Order Manager</h3>
+                        <p class="template-description" itemprop="description">
+                            Automate order processing, inventory sync, and customer 
+                            notifications across Shopify, WooCommerce, and more.
+                        </p>
+                        <div class="template-features">
+                            <span class="feature-tag"><i class="fas fa-check"></i> Setup Guide</span>
+                            <span class="feature-tag"><i class="fas fa-check"></i> Multi-Store</span>
+                            <span class="feature-tag"><i class="fas fa-check"></i> Inventory Sync</span>
+                        </div>
+                        <div class="template-footer">
+                            <div class="template-price">
+                                <span class="price-old">$299</span>
+                                <span class="price-current" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                    <meta itemprop="price" content="169">
+                                    <meta itemprop="priceCurrency" content="USD">
+                                    $169
+                                </span>
+                            </div>
+                            <a href="#" class="btn btn-buy">
+                                <i class="fas fa-shopping-cart"></i> Buy Now
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Template Card 5 -->
+                <article class="template-card" itemscope itemtype="https://schema.org/Product">
+                    <div class="template-image">
+                        <img src="https://via.placeholder.com/400x250/f59e0b/ffffff?text=Data+Processing" alt="Data Processing Template" loading="lazy">
+                        <div class="template-overlay">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-eye"></i> Preview
+                            </a>
+                        </div>
+                    </div>
+                    <div class="template-content">
+                        <h3 class="template-title" itemprop="name">Data Processing Pipeline</h3>
+                        <p class="template-description" itemprop="description">
+                            Extract, transform, and load data from multiple sources 
+                            into your database with error handling.
+                        </p>
+                        <div class="template-features">
+                            <span class="feature-tag"><i class="fas fa-check"></i> Setup Guide</span>
+                            <span class="feature-tag"><i class="fas fa-check"></i> Error Handling</span>
+                            <span class="feature-tag"><i class="fas fa-check"></i> Logging</span>
+                        </div>
+                        <div class="template-footer">
+                            <div class="template-price">
+                                <span class="price-old">$229</span>
+                                <span class="price-current" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                    <meta itemprop="price" content="129">
+                                    <meta itemprop="priceCurrency" content="USD">
+                                    $129
+                                </span>
+                            </div>
+                            <a href="#" class="btn btn-buy">
+                                <i class="fas fa-shopping-cart"></i> Buy Now
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Template Card 6 -->
+                <article class="template-card" itemscope itemtype="https://schema.org/Product">
+                    <div class="template-badge best-seller">
+                        <i class="fas fa-crown"></i> Popular
+                    </div>
+                    <div class="template-image">
+                        <img src="https://via.placeholder.com/400x250/ef4444/ffffff?text=Slack+Integration" alt="Slack Integration Template" loading="lazy">
+                        <div class="template-overlay">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-eye"></i> Preview
+                            </a>
+                        </div>
+                    </div>
+                    <div class="template-content">
+                        <h3 class="template-title" itemprop="name">Slack Team Automation</h3>
+                        <p class="template-description" itemprop="description">
+                            Automate team notifications, daily reports, birthday 
+                            reminders, and custom slash commands.
+                        </p>
+                        <div class="template-features">
+                            <span class="feature-tag"><i class="fas fa-check"></i> Setup Guide</span>
+                            <span class="feature-tag"><i class="fas fa-check"></i> Custom Commands</span>
+                            <span class="feature-tag"><i class="fas fa-check"></i> Webhooks</span>
+                        </div>
+                        <div class="template-footer">
+                            <div class="template-price">
+                                <span class="price-old">$149</span>
+                                <span class="price-current" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                    <meta itemprop="price" content="79">
+                                    <meta itemprop="priceCurrency" content="USD">
+                                    $79
+                                </span>
+                            </div>
+                            <a href="#" class="btn btn-buy">
+                                <i class="fas fa-shopping-cart"></i> Buy Now
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="section-cta">
+                <a href="#pricing" class="btn btn-primary btn-large">
+                    <i class="fas fa-th"></i> View All 500+ Templates
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Our Templates?</h2>
+                <p class="section-subtitle">
+                    Everything you need to automate your business successfully
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="feature-title">Instant Setup</h3>
+                    <p class="feature-description">
+                        Import templates in one click. Detailed setup guides 
+                        help you configure everything in under 15 minutes.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3 class="feature-title">Complete Documentation</h3>
+                    <p class="feature-description">
+                        Step-by-step guides, video tutorials, and troubleshooting 
+                        tips ensure you're never stuck.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="feature-title">Lifetime Support</h3>
+                    <p class="feature-description">
+                        Get help whenever you need it. Our team responds within 
+                        24 hours to solve any issues.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync"></i>
+                    </div>
+                    <h3 class="feature-title">Free Updates</h3>
+                    <p class="feature-description">
+                        All templates are regularly updated with new features 
+                        and improvements at no extra cost.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="feature-title">Fully Customizable</h3>
+                    <p class="feature-description">
+                        Modify any workflow to match your exact needs. Full 
+                        access to all nodes and configurations.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Money-Back Guarantee</h3>
+                    <p class="feature-description">
+                        Not satisfied? Get a full refund within 30 days. 
+                        No questions asked, no hassle.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- How It Works Section -->
+    <section class="how-it-works-section" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">
+                    From purchase to automation in 3 simple steps
+                </p>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="step-title">Choose & Purchase</h3>
+                    <p class="step-description">
+                        Browse our marketplace and select the template that 
+                        fits your needs. Secure checkout with instant access.
+                    </p>
+                </div>
+                
+                <div class="step-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3 class="step-title">Download & Import</h3>
+                    <p class="step-description">
+                        Download your template and setup guide. Import the 
+                        workflow into N8N with one click.
+                    </p>
+                </div>
+                
+                <div class="step-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 class="step-title">Configure & Automate</h3>
+                    <p class="step-description">
+                        Follow the setup guide to configure your credentials. 
+                        Activate and watch your automation work.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Simple, Transparent Pricing</h2>
+                <p class="section-subtitle">
+                    Choose the plan that's right for your business
+                </p>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- Starter Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="plan-name">Starter</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">49</span>
+                            <span class="period">/template</span>
+                        </div>
+                        <p class="plan-description">Perfect for getting started</p>
+                    </div>
+                    <div class="pricing-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> 1 N8N Template
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> Complete Setup Guide
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> Video Tutorial
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> Email Support
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> Free Updates
+                        </div>
+                        <div class="feature-item disabled">
+                            <i class="fas fa-times"></i> Priority Support
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-outline btn-large">
+                        Get Started
+                    </a>
+                </div>
+                
+                <!-- Pro Plan - Popular -->
+                <div class="pricing-card featured">
+                    <div class="popular-badge">
+                        <i class="fas fa-star"></i> Most Popular
+                    </div>
+                    <div class="pricing-header">
+                        <h3 class="plan-name">Pro Bundle</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">199</span>
+                            <span class="period">/5 templates</span>
+                        </div>
+                        <p class="plan-description">Save 40% with bundle</p>
+                    </div>
+                    <div class="pricing-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> 5 N8N Templates
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> Complete Setup Guides
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> Video Tutorials
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> Priority Email Support
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> Lifetime Updates
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> Custom Modifications
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary btn-large">
+                        Buy Pro Bundle
+                    </a>
+                </div>
+                
+                <!-- Enterprise Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="plan-name">Enterprise</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">499</span>
+                            <span class="period">/unlimited</span>
+                        </div>
+                        <p class="plan-description">All templates forever</p>
+                    </div>
+                    <div class="pricing-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> All 500+ Templates
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> Complete Setup Guides
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> Video Tutorials
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> 24/7 Priority Support
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> Lifetime Access
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i> Custom Development
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-outline btn-large">
+                        Contact Sales
+                    </a>
+                </div>
+            </div>
+            
+            <div class="pricing-guarantee">
+                <i class="fas fa-shield-alt"></i>
+                <p>30-Day Money-Back Guarantee • Secure Payment • Instant Access</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">
+                    Join 10,000+ happy automation enthusiasts
+                </p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Saved my team 20+ hours per week! The email automation 
+                        template was exactly what we needed. Setup took less than 
+                        30 minutes with the clear guide."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Sarah Johnson</div>
+                            <div class="author-role">Marketing Director, TechCorp</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Best investment for our agency! We've automated client 
+                        reporting, social media posting, and CRM updates. ROI 
+                        achieved in the first month."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Michael Chen</div>
+                            <div class="author-role">Founder, Digital Agency</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "The documentation is incredible! Even as a non-technical 
+                        person, I was able to set up complex workflows. Support 
+                        team is super responsive too."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Emily Rodriguez</div>
+                            <div class="author-role">E-commerce Owner</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Automate Your Business?</h2>
+                <p class="cta-description">
+                    Join 10,000+ businesses saving hundreds of hours with our 
+                    N8N automation templates. Start today with our 30-day 
+                    money-back guarantee.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#pricing" class="btn btn-primary btn-large">
+                        <i class="fas fa-rocket"></i> Get Started Now
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-large">
+                        <i class="fas fa-comments"></i> Talk to Sales
+                    </a>
+                </div>
+                <div class="cta-stats">
+                    <div class="stat">
+                        <strong>500+</strong> Templates
+                    </div>
+                    <div class="stat">
+                        <strong>10K+</strong> Users
+                    </div>
+                    <div class="stat">
+                        <strong>4.9/5</strong> Rating
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">
+                        Have questions? We're here to help you succeed with automation.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Us</h4>
+                                <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="52212722223d2026123c6a3c21263d20377c313d3f">[email&#160;protected]</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Support Hours</h4>
+                                <p>24/7 Email Support</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Live Chat</h4>
+                                <p>Available on purchase</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic</option>
+                                <option value="sales">Sales Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="custom">Custom Development</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-robot"></i>
+                        <span>N8N<span class="highlight">Store</span></span>
+                    </div>
+                    <p class="footer-description">
+                        Premium N8N automation templates and setup guides to 
+                        transform your business workflows.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Products</h4>
+                    <ul class="footer-links">
+                        <li><a href="#templates">All Templates</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#">Bundle Deals</a></li>
+                        <li><a href="#">New Releases</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Video Tutorials</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#contact">Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 N8N Digital Store. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> for automation enthusiasts</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <!-- Main JavaScript -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/robot-3d.js"></script>
+    
+</body>
+</html>
